@@ -1,0 +1,22 @@
+{
+  "name": "ora",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf lib",
+    "compile": "tsc",
+    "copy": "copyfiles -u 1 \"src/**/*.d.ts\" lib",
+    "build": "run-s clean compile copy"
+  },
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.14",
+    "copyfiles": "^2.4.1",
+    "npm-run-all": "^4.1.5",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.1.3"
+  }
+}

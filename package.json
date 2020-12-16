@@ -1,0 +1,24 @@
+{
+  "name": "@saltire-template/right-pc",
+  "version": "0.1.0",
+  "private": true,
+  "description": "维权骑士主站项目基础脚手架",
+  "keywords": [
+    "module",
+    "node",
+    "saltire-template",
+    "saltire-cli",
+    "right-knight",
+    "check"
+  ],
+  "repository": "saltire-template/right-pc",
+  "license": "MIT",
+  "author": "ye99810@163.com - saltire",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "dependencies": {
+    "cac": "6.6.1"
+  }
+}
